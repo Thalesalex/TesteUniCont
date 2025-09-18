@@ -1,5 +1,6 @@
 const EnderecoApi = "/notas"
 let notas = []
+let ordemCrescente = true;
 
 $(document).ready(function () {
     GetNotas();
@@ -28,6 +29,27 @@ $(document).ready(function () {
         })
 
     })
+
+    $("#filtroCliente").keyup(function () {
+        PreencherTabela();
+    })
+
+    $("#ordenarValor").click(function (){
+        if (ordemCrescente) {
+            notas.sort((a, b) => a.valor - b.valor);
+            ordemCrescente = false;
+        }
+        else {
+            notas.sort((a, b) => b.valor - a.valor);
+            ordemCrescente = true;
+        }
+        PreencherTabela();
+    })
+    $("#limparFiltros").click(function () {
+        $("#filtroCliente").val("");
+        GetNotas();
+    })
+    
 });
 
 function GetNotas() {
@@ -35,24 +57,22 @@ function GetNotas() {
         notas = response;
         PreencherTabela();
     });
-
 }
 
 function PreencherTabela() {
     const filtroCliente = $("#filtroCliente").val().toLowerCase();
-    let html = ""
+    let html = "";
 
     for (const n of notas) {
-        //parei aqui por conta do tempo
-        //if (!filtroCliente || n.nomeCliente.includes) {
-        html += "<td>";
-        html += `<tr>${n.numeroNota}</tr>`;
-        html += `<tr>${n.nomeCliente}</tr>`;
-        html += `<tr>${(n.valor).toFixed(2)}</tr>`;
-        html += `<tr>${(new Date(n.dataEmissao).toLocaleDateString("pt-br"))}</tr>`;
-        html += `<tr>${(new Date(n.dataCadastro).toLocaleString("pt-br"))}</tr>`;
-        html += "</td>";
-        //}
-    };
+        if (!filtroCliente || n.nomeCliente.toLowerCase().includes(filtroCliente)) {
+        html += "<tr>"
+        html += `<td>${n.numeroNota}</td>`
+        html += `<td>${n.nomeCliente}</td>`
+        html += `<td>R$ ${(n.valor).toFixed(2)}</td>`
+        html += `<td>${(new Date(n.dataEmissao).toLocaleDateString("pt-br"))}</td>`
+        html += `<td>${(new Date(n.dataCadastro).toLocaleString("pt-br"))}</td>`
+        html += "</tr>"
+        }
+    }
     $("#listaNotas").html(html);
 }
