@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TesteUneCont.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TesteUneCont.props",
+      "PackagePath": "build\\TesteUneCont.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TesteUneCont.props",
+      "PackagePath": "buildMultiTargeting\\TesteUneCont.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TesteUneCont.props",
+      "PackagePath": "buildTransitive\\TesteUneCont.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\testeunecont\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|solutionrelative:testeunecont\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|c:\\users\\thales peres\\desktop\\testeunecont\\testeunecont\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|solutionrelative:testeunecont\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|c:\\users\\thales peres\\desktop\\testeunecont\\testeunecont\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|solutionrelative:testeunecont\\models\\notafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|c:\\users\\thales peres\\desktop\\testeunecont\\testeunecont\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|solutionrelative:testeunecont\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\testeunecont\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20E4DE-9259-43EC-8401-FD9B117897AC}|TesteUneCont\\TesteUneCont.csproj|solutionrelative:testeunecont\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "TesteUneCont\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "TesteUneCont\\Controllers\\NotasController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:07:21.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Program.cs",
+              "RelativeDocumentMoniker": "TesteUneCont\\Program.cs",
+              "ToolTip": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Program.cs",
+              "RelativeToolTip": "TesteUneCont\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:12:55.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "TesteUneCont\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "TesteUneCont\\wwwroot\\js\\script.js",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-18T15:12:03.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotaFiscal.cs",
+              "DocumentMoniker": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Models\\NotaFiscal.cs",
+              "RelativeDocumentMoniker": "TesteUneCont\\Models\\NotaFiscal.cs",
+              "ToolTip": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\Models\\NotaFiscal.cs",
+              "RelativeToolTip": "TesteUneCont\\Models\\NotaFiscal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T20:08:13.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "TesteUneCont\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Thales Peres\\Desktop\\TesteUneCont\\TesteUneCont\\wwwroot\\index.html",
+              "RelativeToolTip": "TesteUneCont\\wwwroot\\index.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-18T15:09:36.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
